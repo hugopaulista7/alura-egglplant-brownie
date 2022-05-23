@@ -7,15 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		315407232837D8EB00A5F828 /* AdicionarItensViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315407212837D8EB00A5F828 /* AdicionarItensViewController.swift */; };
+		315407242837D8EB00A5F828 /* AdicionarItensViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 315407222837D8EB00A5F828 /* AdicionarItensViewController.xib */; };
+		315407262839A69500A5F828 /* Alerta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315407252839A69500A5F828 /* Alerta.swift */; };
+		315407282839AF4900A5F828 /* RemoveRefeicaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315407272839AF4900A5F828 /* RemoveRefeicaoViewController.swift */; };
+		3154072A283BCCE600A5F828 /* RefeicaoDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31540729283BCCE600A5F828 /* RefeicaoDao.swift */; };
+		3154072C283BCEAF00A5F828 /* ItemDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3154072B283BCEAF00A5F828 /* ItemDao.swift */; };
 		3173C8DC27F1C49C00E6B08D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3173C8DB27F1C49C00E6B08D /* AppDelegate.swift */; };
 		3173C8DE27F1C49C00E6B08D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3173C8DD27F1C49C00E6B08D /* SceneDelegate.swift */; };
 		3173C8E027F1C49C00E6B08D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3173C8DF27F1C49C00E6B08D /* ViewController.swift */; };
 		3173C8E327F1C49C00E6B08D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3173C8E127F1C49C00E6B08D /* Main.storyboard */; };
 		3173C8E527F1C49E00E6B08D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3173C8E427F1C49E00E6B08D /* Assets.xcassets */; };
 		3173C8E827F1C49E00E6B08D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3173C8E627F1C49E00E6B08D /* LaunchScreen.storyboard */; };
+		31F265E22836789400486FC4 /* Refeicao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F265E12836789400486FC4 /* Refeicao.swift */; };
+		31F265E42836792500486FC4 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F265E32836792500486FC4 /* Item.swift */; };
+		31F266292836D80700486FC4 /* RefeicoesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F266282836D80700486FC4 /* RefeicoesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		314E0E8C2835C6230068D484 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = ../../MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		315407212837D8EB00A5F828 /* AdicionarItensViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdicionarItensViewController.swift; sourceTree = "<group>"; };
+		315407222837D8EB00A5F828 /* AdicionarItensViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdicionarItensViewController.xib; sourceTree = "<group>"; };
+		315407252839A69500A5F828 /* Alerta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerta.swift; sourceTree = "<group>"; };
+		315407272839AF4900A5F828 /* RemoveRefeicaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveRefeicaoViewController.swift; sourceTree = "<group>"; };
+		31540729283BCCE600A5F828 /* RefeicaoDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefeicaoDao.swift; sourceTree = "<group>"; };
+		3154072B283BCEAF00A5F828 /* ItemDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDao.swift; sourceTree = "<group>"; };
 		3173C8D827F1C49C00E6B08D /* eggplant-brownie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eggplant-brownie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3173C8DB27F1C49C00E6B08D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3173C8DD27F1C49C00E6B08D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +40,9 @@
 		3173C8E427F1C49E00E6B08D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3173C8E727F1C49E00E6B08D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3173C8E927F1C49E00E6B08D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31F265E12836789400486FC4 /* Refeicao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refeicao.swift; sourceTree = "<group>"; };
+		31F265E32836792500486FC4 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		31F266282836D80700486FC4 /* RefeicoesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefeicoesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +75,49 @@
 		3173C8DA27F1C49C00E6B08D /* eggplant-brownie */ = {
 			isa = PBXGroup;
 			children = (
+				31F265E528367A7400486FC4 /* Models */,
+				31F265E628367A8E00486FC4 /* Controllers */,
+				31F265E728367AA400486FC4 /* Views */,
 				3173C8DB27F1C49C00E6B08D /* AppDelegate.swift */,
 				3173C8DD27F1C49C00E6B08D /* SceneDelegate.swift */,
-				3173C8DF27F1C49C00E6B08D /* ViewController.swift */,
-				3173C8E127F1C49C00E6B08D /* Main.storyboard */,
 				3173C8E427F1C49E00E6B08D /* Assets.xcassets */,
+				314E0E8C2835C6230068D484 /* MyPlayground.playground */,
 				3173C8E627F1C49E00E6B08D /* LaunchScreen.storyboard */,
 				3173C8E927F1C49E00E6B08D /* Info.plist */,
 			);
 			path = "eggplant-brownie";
+			sourceTree = "<group>";
+		};
+		31F265E528367A7400486FC4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				31F265E12836789400486FC4 /* Refeicao.swift */,
+				31F265E32836792500486FC4 /* Item.swift */,
+				315407252839A69500A5F828 /* Alerta.swift */,
+				31540729283BCCE600A5F828 /* RefeicaoDao.swift */,
+				3154072B283BCEAF00A5F828 /* ItemDao.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		31F265E628367A8E00486FC4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3173C8DF27F1C49C00E6B08D /* ViewController.swift */,
+				31F266282836D80700486FC4 /* RefeicoesTableViewController.swift */,
+				315407212837D8EB00A5F828 /* AdicionarItensViewController.swift */,
+				315407272839AF4900A5F828 /* RemoveRefeicaoViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		31F265E728367AA400486FC4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3173C8E127F1C49C00E6B08D /* Main.storyboard */,
+				315407222837D8EB00A5F828 /* AdicionarItensViewController.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +180,7 @@
 			files = (
 				3173C8E827F1C49E00E6B08D /* LaunchScreen.storyboard in Resources */,
 				3173C8E527F1C49E00E6B08D /* Assets.xcassets in Resources */,
+				315407242837D8EB00A5F828 /* AdicionarItensViewController.xib in Resources */,
 				3173C8E327F1C49C00E6B08D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +192,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				315407262839A69500A5F828 /* Alerta.swift in Sources */,
+				31F265E42836792500486FC4 /* Item.swift in Sources */,
 				3173C8E027F1C49C00E6B08D /* ViewController.swift in Sources */,
+				315407282839AF4900A5F828 /* RemoveRefeicaoViewController.swift in Sources */,
+				3154072C283BCEAF00A5F828 /* ItemDao.swift in Sources */,
+				3154072A283BCCE600A5F828 /* RefeicaoDao.swift in Sources */,
+				315407232837D8EB00A5F828 /* AdicionarItensViewController.swift in Sources */,
 				3173C8DC27F1C49C00E6B08D /* AppDelegate.swift in Sources */,
+				31F266292836D80700486FC4 /* RefeicoesTableViewController.swift in Sources */,
 				3173C8DE27F1C49C00E6B08D /* SceneDelegate.swift in Sources */,
+				31F265E22836789400486FC4 /* Refeicao.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
